@@ -53,6 +53,11 @@ header {
 
 .name-fields {
   display: flex;
+  gap: 16px;         /* adds consistent space between the two boxes */
+}
+
+.name-fields > div {
+  flex: 1;           /* makes first and last name evenly share the row */
 }
 
 /* Button */
@@ -81,3 +86,4 @@ header {
 
 /* Headings */
 h1 { margin: 1rem 0; font-size: clamp(28px, 4vw, 40px); }
+
