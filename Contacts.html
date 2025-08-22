@@ -25,45 +25,46 @@
       <h1>Contact Me!</h1>
 
       <form action="https://formsubmit.co/3862f2064495e0a0392d7c21c8d2f64a" method="POST" class="contact-form">
-      <div class="name-fields">
-        <div>
-          <label for="first-name">First Name</label>
-          <input type="text" name="first-name" id="first-name" required minlength="1" maxlength="60">
+        <div class="name-fields">
+          <div>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" required minlength="1" maxlength="60">
+          </div>
+          <div>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required minlength="1" maxlength="60">
+          </div>
         </div>
-        <div>
-          <label for="last-name">Last Name</label>
-          <input type="text" name="last-name" id="last-name" required minlength="1" maxlength="60">
+      
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required maxlength="254">
+      
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" required maxlength="1500"
+          placeholder="Please describe your project, timeline, and the type of representation you’re seeking."></textarea>
+      
+        <!-- Honeypot -->
+        <div class="hidden">
+          <label for="company">Company</label>
+          <input type="text" name="company" id="company" tabindex="-1" autocomplete="off">
         </div>
-      </div>
-    
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required maxlength="254">
-    
-      <label for="message">Message</label>
-      <textarea name="message" id="message" rows="5" required maxlength="1500"
-        placeholder="Please describe your project, timeline, and the type of representation you’re seeking."></textarea>
-    
-      <!-- Honeypot -->
-      <div class="hidden">
-        <label for="company">Company</label>
-        <input type="text" name="company" id="company" tabindex="-1" autocomplete="off">
-      </div>
-    
-      <!-- FormSubmit options -->
-      <input type="hidden" name="_subject" value="New Contact Request">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://hjosh-20.github.io/EagleFangDemo.github.io/ThankuPage.html">
-      <!-- optional helpers:
-      <input type="hidden" name="_cc" value="ops@eaglefangpr.com">
-      <input type="hidden" name="_blacklist" value="viagra,casino,loan,click here">
-      -->
-    
-      <button type="submit" class="btn">Send Message</button>
+      
+        <!-- FormSubmit options -->
+        <input type="hidden" name="_subject" value="New Contact Request">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://hjosh-20.github.io/EagleFangDemo.github.io/ThankuPage.html">
+        <!-- optional helpers:
+        <input type="hidden" name="_cc" value="ops@eaglefangpr.com">
+        <input type="hidden" name="_blacklist" value="viagra,casino,loan,click here">
+        -->
+      
+        <button type="submit" class="btn">Send Message</button>
       </form>
     </div>
   </main>
 </body>
 </html>
+
 
 
 
